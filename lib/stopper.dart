@@ -291,7 +291,7 @@ Future showModalStopper({
   Future cont;
 
   cont = showModalBottomSheet(
-    backgroundColor: Theme.of(context).backgroundColor,
+    backgroundColor: Theme.of(context).colorScheme.background,
     shape: shape,
     isScrollControlled: true,
     context: context,
